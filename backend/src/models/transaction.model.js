@@ -1,9 +1,4 @@
-import dotenv from "dotenv";
-import express from "express";
-import { sql } from "./config/db.js";
-
-const app = express();
-dotenv.config();
+import { sql } from "../config/db.js";
 
 async function connectDB() {
   try {
@@ -22,12 +17,4 @@ async function connectDB() {
   }
 }
 
-app.get("/", (req, res) => {
-  res.send("Hello World!");
-});
-
-connectDB().then(() => {
-  app.listen(process.env.PORT, () => {
-  console.log(`Server is running on port ${process.env.PORT}`)
-  });
-});
+export default connectDB;
