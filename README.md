@@ -9,14 +9,13 @@ Expense Tracker is a simple web application that helps you manage your personal 
 - ➕ Add, edit, and delete income and expense transactions
 - 🏷️ Categorize expenses (e.g., Food, Transport, Utilities, etc.)
 - 📊 Dashboard with summary of income, expenses, and balance
-- 📈 Interactive charts to visualize spending patterns
 - 🔎 Filter transactions by date and category
 - 📱 Responsive design for desktop and mobile browsers
 
 ## 🛠️ Tech Stack
-- **Frontend:** React, Chart.js, CSS/Styled Components
+- **Frontend:** Expo , React-Native , Nativewind 
 - **Backend:** Node.js, Express.js
-- **Database:** MongoDB (Mongoose)
+- **Database:** NeonDB(Postgres)
 
 ## ⚡ Installation Instructions
 1. **Clone the repository:**
